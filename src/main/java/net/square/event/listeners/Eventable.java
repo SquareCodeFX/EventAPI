@@ -11,7 +11,6 @@ import java.lang.annotation.*;
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Eventable {
-    
 
     /**
      * Returns the priority of the listener method.
