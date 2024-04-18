@@ -1,7 +1,7 @@
 package net.square.event.listeners;
 
 /**
- * Event listener priorities. Highest priority is called first
+ * A priority for event listeners.
  */
 public enum ListenerPriority {
     HIGHEST, HIGH, NORMAL, LOW, LOWEST;
